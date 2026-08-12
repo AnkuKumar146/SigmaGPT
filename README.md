@@ -34,3 +34,6 @@ SigmaGPT/
 │   │       └── application.properties     # DB & Server Port Configurations
 ├── pom.xml                                # Maven Dependencies
 └── README.md                              # Project Documentation
+
+
+project auditor : Anku kumar

@@ -94,7 +94,7 @@ sigmagpt/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/sigmagpt.git
+git clone https://github.com/AnkuKumar146sigmagpt.git
 cd sigmagpt
 ```
 
@@ -249,7 +249,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-**Built with ❤️ by [Roshan](https://github.com/your-username)**
+**Built with ❤️ by [Anku ](https://github.com/AnkuKumar146)**
 
 *If you found this project useful, consider giving it a ⭐!*
 

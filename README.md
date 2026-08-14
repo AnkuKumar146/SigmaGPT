@@ -1,61 +1,109 @@
 <![CDATA[<div align="center">
 
-# 🤖 SigmaGPT
+<!-- Hero Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:10a37f,100:1a7f64&height=220&section=header&text=SigmaGPT&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI-Powered%20Chatbot%20%7C%20Spring%20Boot%20%2B%20Groq&descSize=18&descAlignY=55&descColor=cccccc" width="100%"/>
 
-**An AI-powered chatbot built with Spring Boot and the Groq API**
+<br/>
 
-[![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.3-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
-[![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3-F55036?style=for-the-badge&logo=meta&logoColor=white)](https://groq.com/)
-[![H2 Database](https://img.shields.io/badge/H2-Database-0000BB?style=for-the-badge&logo=databricks&logoColor=white)](https://www.h2database.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+<p>
+  <a href="https://openjdk.org/"><img src="https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 17"/></a>
+  <a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/Spring_Boot-3.2.3-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"/></a>
+  <a href="https://groq.com/"><img src="https://img.shields.io/badge/Groq-LLaMA_3.3_70B-F55036?style=for-the-badge&logo=meta&logoColor=white" alt="Groq"/></a>
+  <a href="https://www.h2database.com/"><img src="https://img.shields.io/badge/H2-In--Memory_DB-0000BB?style=for-the-badge&logo=databricks&logoColor=white" alt="H2"/></a>
+</p>
 
----
+<p>
+  <a href="https://github.com/AnkuKumar146/sigmagpt/stargazers"><img src="https://img.shields.io/github/stars/AnkuKumar146/sigmagpt?style=social" alt="Stars"/></a>
+  <a href="https://github.com/AnkuKumar146/sigmagpt/network/members"><img src="https://img.shields.io/github/forks/AnkuKumar146/sigmagpt?style=social" alt="Forks"/></a>
+  <a href="https://github.com/AnkuKumar146/sigmagpt/issues"><img src="https://img.shields.io/github/issues/AnkuKumar146/sigmagpt?style=social" alt="Issues"/></a>
+</p>
 
-*A lightweight, full-stack conversational AI application that leverages Groq's ultra-fast inference engine to deliver real-time responses powered by the LLaMA 3.3 70B model — complete with persistent chat history and a clean web interface.*
+<br/>
+
+<p><em>A full-stack AI chatbot that delivers blazing-fast responses using <strong>Groq's LLaMA 3.3 70B</strong> model — built with <strong>Spring Boot</strong>, complete with persistent chat history, a REST API, and a sleek dark-themed web interface.</em></p>
+
+<br/>
+
+[🚀 Get Started](#-getting-started) · [📡 API Docs](#-api-reference) · [🏗️ Architecture](#️-architecture) · [🗺️ Roadmap](#️-roadmap) · [🤝 Contribute](#-contributing)
+
+<br/>
 
 </div>
 
 ---
 
+## 🎯 What is SigmaGPT?
+
+**SigmaGPT** is a lightweight, production-ready AI chatbot backend that connects to [Groq](https://groq.com/)'s ultra-fast inference API. It provides a simple yet powerful conversational interface where users can ask questions and receive intelligent responses powered by the **LLaMA 3.3 70B Versatile** model.
+
+> 💡 **Why Groq?** Groq's custom LPU™ (Language Processing Unit) hardware delivers up to **18x faster** inference than traditional GPU-based solutions, making SigmaGPT responses feel near-instantaneous.
+
+---
+
 ## ✨ Features
 
-| Feature | Description |
-|---|---|
-| 🧠 **AI Chat** | Real-time conversational AI powered by Groq's LLaMA 3.3 70B model |
-| 💾 **Chat History** | Persistent storage of all conversations using H2 in-memory database |
-| 🌐 **REST API** | Clean RESTful endpoints for chat and history retrieval |
-| 🎨 **Web UI** | Built-in dark-themed chat interface served as a static page |
-| ⚡ **Fast Inference** | Ultra-low latency responses via Groq's hardware-accelerated API |
-| 🔒 **Secure Config** | API keys managed via environment variables, never hardcoded |
+<table>
+  <tr>
+    <td align="center" width="140"><strong>🧠</strong><br/><strong>AI Chat</strong></td>
+    <td>Real-time conversational AI powered by Groq's LLaMA 3.3 70B — one of the most capable open-source LLMs available</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>💾</strong><br/><strong>Chat History</strong></td>
+    <td>Every conversation is automatically persisted to an H2 in-memory database with timestamps</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>📡</strong><br/><strong>REST API</strong></td>
+    <td>Clean, well-defined RESTful endpoints for programmatic chat and history retrieval</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🎨</strong><br/><strong>Web Interface</strong></td>
+    <td>Built-in dark-themed chat UI with auto-scrolling, keyboard shortcuts, and responsive design</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>⚡</strong><br/><strong>Ultra-Fast</strong></td>
+    <td>Sub-second response times leveraging Groq's hardware-accelerated LPU inference engine</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🔒</strong><br/><strong>Secure</strong></td>
+    <td>API keys managed through environment variables — never exposed in source code</td>
+  </tr>
+</table>
 
 ---
 
 ## 🏗️ Architecture
 
 ```
-┌──────────────────────────────────────────────────────┐
-│                    CLIENT (Browser)                  │
-│               index.html — Chat Interface            │
-└──────────────┬───────────────────────┬───────────────┘
-               │  GET /chat?message=   │  GET /history
-               ▼                       ▼
-┌──────────────────────────────────────────────────────┐
-│               SPRING BOOT APPLICATION                │
-│                                                      │
-│  ┌──────────────────────────────────────────────┐    │
-│  │           ChatController (REST)               │    │
-│  │  • /chat  → forwards to Groq API             │    │
-│  │  • /history → retrieves saved conversations  │    │
-│  └─────────┬──────────────────┬─────────────────┘    │
-│            │                  │                       │
-│            ▼                  ▼                       │
-│  ┌────────────────┐  ┌──────────────────┐            │
-│  │  Groq API      │  │  ChatRepository  │            │
-│  │  (LLaMA 3.3)   │  │  (JPA / H2 DB)   │            │
-│  └────────────────┘  └──────────────────┘            │
-└──────────────────────────────────────────────────────┘
+                          ┌─────────────────────────────┐
+                          │      🌐  BROWSER CLIENT     │
+                          │    index.html (Dark UI)      │
+                          └──────────┬──────────────────┘
+                                     │
+                          ┌──────────▼──────────────────┐
+                          │    SPRING BOOT  :8081        │
+                          │                              │
+                          │  ┌────────────────────────┐  │
+                          │  │    ChatController       │  │
+                          │  │                         │  │
+                          │  │  GET /chat?message=...  │  │
+                          │  │  GET /history           │  │
+                          │  └───┬────────────────┬────┘  │
+                          │     │                │        │
+                          │     ▼                ▼        │
+                          │ ┌────────┐   ┌─────────────┐  │
+                          │ │ Groq   │   │ H2 Database │  │
+                          │ │ API    │   │ (In-Memory) │  │
+                          │ │ ☁️     │   │ 💾          │  │
+                          │ └────────┘   └─────────────┘  │
+                          │                              │
+                          └──────────────────────────────┘
 ```
+
+**Request Flow:**
+1. User types a message in the web interface or calls the `/chat` API
+2. `ChatController` receives the request and forwards it to the **Groq API** with the LLaMA 3.3 model
+3. The AI response is saved to the **H2 database** along with the user's message and a timestamp
+4. The response is returned to the client in real-time
 
 ---
 
@@ -63,23 +111,25 @@
 
 ```
 sigmagpt/
-├── .env.example                          # Environment variable template
-├── .gitignore                            # Git ignore rules
-├── pom.xml                               # Maven project configuration
-├── mvnw / mvnw.cmd                       # Maven wrapper scripts
-├── src/
-│   ├── main/
-│   │   ├── java/SIGMAGPT/
-│   │   │   ├── SigmagptApplication.java  # Application entry point
-│   │   │   ├── ChatController.java       # REST controller (chat + history)
-│   │   │   ├── ChatMessage.java          # JPA entity model
-│   │   │   └── ChatRepository.java       # Data access layer
-│   │   └── resources/
-│   │       ├── application.properties    # Server & database configuration
-│   │       └── static/
-│   │           └── index.html            # Frontend chat interface
-│   └── test/                             # Unit tests
-└── target/                               # Compiled output (auto-generated)
+│
+├── 📄 pom.xml                                # Maven build config & dependencies
+├── 📄 .env.example                           # API key template
+├── 📄 .gitignore                             # Ignored files & directories
+├── 🔧 mvnw / mvnw.cmd                       # Maven wrapper (Linux/Windows)
+│
+├── 📂 src/main/
+│   ├── 📂 java/SIGMAGPT/
+│   │   ├── ☕ SigmagptApplication.java       # 🚀 Entry point — bootstraps Spring Boot
+│   │   ├── ☕ ChatController.java            # 🎮 REST controller — /chat & /history
+│   │   ├── ☕ ChatMessage.java               # 📦 JPA entity — message data model
+│   │   └── ☕ ChatRepository.java            # 🗃️ Repository — database operations
+│   │
+│   └── 📂 resources/
+│       ├── 📄 application.properties         # ⚙️ Server, DB, and API configuration
+│       └── 📂 static/
+│           └── 📄 index.html                 # 🎨 Frontend chat interface
+│
+└── 📂 src/test/                              # 🧪 Unit & integration tests
 ```
 
 ---
@@ -88,88 +138,118 @@ sigmagpt/
 
 ### Prerequisites
 
-- **Java 17** or higher — [Download](https://adoptium.net/)
-- **Groq API Key** — [Get one free](https://console.groq.com/keys)
+| Requirement | Version | Link |
+|---|---|---|
+| ☕ Java JDK | 17+ | [Download](https://adoptium.net/) |
+| 🔑 Groq API Key | — | [Get Free Key](https://console.groq.com/keys) |
 
-### 1. Clone the Repository
+> **Note:** Maven is **not** required — the project includes a Maven wrapper (`mvnw`).
+
+### Step 1 → Clone the Repository
 
 ```bash
-git clone https://github.com/AnkuKumar146sigmagpt.git
+git clone https://github.com/AnkuKumar146/sigmagpt.git
 cd sigmagpt
 ```
 
-### 2. Configure Environment Variables
-
-Create a `.env` file from the provided template:
+### Step 2 → Configure Your API Key
 
 ```bash
 cp .env.example .env
 ```
 
-Then open `.env` and add your Groq API key:
+Edit the `.env` file with your Groq API key:
 
 ```env
 GROQ_API_KEY=gsk_your_actual_api_key_here
 ```
 
-> [!IMPORTANT]
-> Never commit your `.env` file. It is already included in `.gitignore`.
+> [!CAUTION]
+> **Never commit your `.env` file to version control.** It is already added to `.gitignore` for your protection.
 
-### 3. Run the Application
+### Step 3 → Run the Application
 
-**Linux / macOS:**
+<details>
+<summary><strong>🐧 Linux / macOS</strong></summary>
+
 ```bash
 export $(cat .env | xargs) && ./mvnw spring-boot:run
 ```
+</details>
 
-**Windows (PowerShell):**
+<details>
+<summary><strong>🪟 Windows (PowerShell)</strong></summary>
+
 ```powershell
-$env:GROQ_API_KEY="gsk_your_actual_api_key_here"; .\mvnw.cmd spring-boot:run
+$env:GROQ_API_KEY="gsk_your_actual_api_key_here"
+.\mvnw.cmd spring-boot:run
+```
+</details>
+
+<details>
+<summary><strong>🪟 Windows (CMD)</strong></summary>
+
+```cmd
+set GROQ_API_KEY=gsk_your_actual_api_key_here
+mvnw.cmd spring-boot:run
+```
+</details>
+
+### Step 4 → Open in Browser
+
+```
+🌐 http://localhost:8081
 ```
 
-### 4. Open in Browser
-
-Navigate to:
-
-```
-http://localhost:8081
-```
-
-You should see the SigmaGPT chat interface ready to go! 🎉
+You'll see the SigmaGPT chat interface — start chatting! 🎉
 
 ---
 
 ## 📡 API Reference
 
-### Send a Chat Message
+### `GET` /chat — Send a Message
+
+Send a message to the AI and receive a response.
 
 ```http
-GET /chat?message={your_message}
+GET http://localhost:8081/chat?message={your_message}
 ```
 
-| Parameter | Type     | Default   | Description                    |
-|-----------|----------|-----------|--------------------------------|
-| `message` | `string` | `"Hello"` | The message to send to the AI  |
+| Parameter | Type     | Default   | Required | Description                    |
+|-----------|----------|-----------|----------|--------------------------------|
+| `message` | `string` | `"Hello"` | No       | The message to send to the AI  |
 
-**Example:**
+<details>
+<summary><strong>📋 Example Request & Response</strong></summary>
+
+**Request:**
 ```bash
-curl "http://localhost:8081/chat?message=What%20is%20Java?"
+curl "http://localhost:8081/chat?message=Explain%20quantum%20computing%20in%20simple%20terms"
 ```
 
 **Response:**
 ```
-Java is a high-level, object-oriented programming language...
+Quantum computing uses quantum bits (qubits) instead of regular bits. While a 
+regular bit can only be 0 or 1, a qubit can be both 0 and 1 at the same time 
+(superposition). This allows quantum computers to process many possibilities 
+simultaneously, making them incredibly powerful for certain types of problems...
 ```
+</details>
 
 ---
 
-### Retrieve Chat History
+### `GET` /history — Retrieve Chat History
+
+Fetch all previously saved chat conversations.
 
 ```http
-GET /history
+GET http://localhost:8081/history
 ```
 
-**Example:**
+<details>
+<summary><strong>📋 Example Request & Response</strong></summary>
+
+**Request:**
 ```bash
 curl http://localhost:8081/history
 ```
@@ -182,62 +262,78 @@ curl http://localhost:8081/history
     "userMessage": "What is Java?",
     "aiResponse": "Java is a high-level, object-oriented programming language...",
     "timestamp": "2026-08-14T20:30:00"
+  },
+  {
+    "id": 2,
+    "userMessage": "Explain quantum computing",
+    "aiResponse": "Quantum computing uses quantum bits (qubits)...",
+    "timestamp": "2026-08-14T20:31:15"
   }
 ]
 ```
+</details>
 
 ---
 
-### H2 Database Console
+### 🗄️ H2 Database Console
 
-The in-memory database console is accessible at:
+Access the built-in database admin panel:
 
 ```
-http://localhost:8081/h2-console
+🌐 http://localhost:8081/h2-console
 ```
 
 | Setting       | Value                 |
 |---------------|-----------------------|
 | JDBC URL      | `jdbc:h2:mem:sigmadb` |
 | Username      | `sa`                  |
-| Password      | *(leave blank)*       |
+| Password      | *(leave empty)*       |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer        | Technology                                                        |
-|--------------|-------------------------------------------------------------------|
-| **Language** | Java 17                                                           |
-| **Framework**| Spring Boot 3.2.3 (Web, Data JPA)                                |
-| **AI Model** | LLaMA 3.3 70B Versatile via [Groq API](https://groq.com/)       |
-| **Database** | H2 (in-memory, runtime)                                          |
-| **ORM**      | Spring Data JPA / Hibernate                                       |
-| **Build**    | Apache Maven (with wrapper)                                       |
-| **Frontend** | Vanilla HTML, CSS, JavaScript (served as Spring Boot static page) |
+<div align="center">
+
+| Layer | Technology | Purpose |
+|:---:|:---|:---|
+| **Language** | Java 17 | Core application logic |
+| **Framework** | Spring Boot 3.2.3 | Web server, DI, auto-configuration |
+| **AI Model** | LLaMA 3.3 70B via Groq | Natural language generation |
+| **Database** | H2 (in-memory) | Chat history persistence |
+| **ORM** | Spring Data JPA / Hibernate | Object-relational mapping |
+| **HTTP Client** | RestTemplate | Groq API communication |
+| **Build Tool** | Apache Maven (wrapper) | Dependency management & builds |
+| **Frontend** | HTML + CSS + JavaScript | Chat user interface |
+
+</div>
 
 ---
 
 ## 🗺️ Roadmap
 
-- [ ] Add streaming responses for real-time token output
-- [ ] Implement conversation context (multi-turn memory)
-- [ ] Switch to a persistent database (PostgreSQL / MySQL)
-- [ ] Add user authentication and session management
-- [ ] Deploy with Docker containerization
-- [ ] Build a modern React/Next.js frontend
+- [ ] 🔄 **Streaming Responses** — Real-time token-by-token output using SSE
+- [ ] 🧠 **Conversation Context** — Multi-turn memory for coherent conversations
+- [ ] 🐘 **Persistent Database** — Migrate from H2 to PostgreSQL / MySQL
+- [ ] 🔐 **Authentication** — User accounts with JWT-based session management
+- [ ] 🐳 **Docker Support** — One-command deployment with Docker Compose
+- [ ] ⚛️ **Modern Frontend** — React / Next.js UI with markdown rendering
+- [ ] 📊 **Usage Analytics** — Track usage metrics and popular queries
+- [ ] 🌍 **Multi-Model Support** — Switch between different LLMs (Mixtral, Gemma, etc.)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how to get started:
+Contributions, issues, and feature requests are welcome!
 
-1. **Fork** the repository
-2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
-3. **Commit** your changes: `git commit -m 'Add amazing feature'`
-4. **Push** to the branch: `git push origin feature/amazing-feature`
-5. **Open** a Pull Request
+```
+1. Fork the repository
+2. Create your branch        →  git checkout -b feature/awesome-feature
+3. Commit your changes       →  git commit -m "Add awesome feature"
+4. Push to the branch        →  git push origin feature/awesome-feature
+5. Open a Pull Request       →  🎉
+```
 
 ---
 
@@ -249,9 +345,15 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-**Built with ❤️ by [Anku ](https://github.com/AnkuKumar146)**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:10a37f,100:1a7f64&height=120&section=footer" width="100%"/>
 
-*If you found this project useful, consider giving it a ⭐!*
+**Made with ❤️ by [Anku Kumar](https://github.com/AnkuKumar146)**
+
+⭐ **Star this repo if you found it useful!** ⭐
+
+<br/>
+
+<a href="https://github.com/AnkuKumar146"><img src="https://img.shields.io/badge/GitHub-AnkuKumar146-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 </div>
 ]]>
